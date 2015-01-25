@@ -106,7 +106,7 @@ typedef void(^PSSVSimpleBlock)(void);
     viewControllers_ = [[NSMutableArray alloc] init];
     
     // set some reasonble defaults
-    leftInset_ = 60;
+    leftInset_ = 80;
     largeLeftInset_ = 200;
     
     [self configureGestureRecognizer];
